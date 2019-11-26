@@ -50,8 +50,30 @@
 						"type": "TabularTranslator",
 						"mappings": [
 							{
+								"source": {
+									"name": "id ",
+									"type": "String"
+								},
 								"sink": {
-									"path": "$"
+									"path": "jid"
+								}
+							},
+							{
+								"source": {
+									"name": "name",
+									"type": "String"
+								},
+								"sink": {
+									"path": "jname"
+								}
+							},
+							{
+								"source": {
+									"name": "Sal",
+									"type": "String"
+								},
+								"sink": {
+									"path": "jsal"
 								}
 							}
 						]
