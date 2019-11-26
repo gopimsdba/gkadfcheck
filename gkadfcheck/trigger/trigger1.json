@@ -5,7 +5,7 @@
 		"annotations": [
 			"job1"
 		],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
