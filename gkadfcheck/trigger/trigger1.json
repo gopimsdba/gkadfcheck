@@ -6,13 +6,20 @@
 			"job1"
 		],
 		"runtimeState": "Started",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Movecsv",
+					"type": "PipelineReference"
+				}
+			}
+		],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2019-11-26T17:34:00.000Z",
+				"startTime": "2019-11-26T17:40:00.000Z",
 				"timeZone": "UTC"
 			}
 		}
