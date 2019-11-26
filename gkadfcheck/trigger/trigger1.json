@@ -2,7 +2,9 @@
 	"name": "trigger1",
 	"properties": {
 		"description": "one time",
-		"annotations": [],
+		"annotations": [
+			"job1"
+		],
 		"runtimeState": "Started",
 		"pipelines": [],
 		"type": "ScheduleTrigger",
