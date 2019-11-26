@@ -1,0 +1,7 @@
+{
+	"name": "Movecsv",
+	"properties": {
+		"description": "move csv from blob to adls2",
+		"annotations": []
+	}
+}
