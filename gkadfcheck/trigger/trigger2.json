@@ -1,0 +1,33 @@
+{
+	"name": "trigger2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Movecsv",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2019-12-24T13:30:00.000Z",
+				"endTime": "2019-12-27T13:24:00.000Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"minutes": [
+						30
+					],
+					"hours": [
+						13
+					]
+				}
+			}
+		}
+	}
+}
