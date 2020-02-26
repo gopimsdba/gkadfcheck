@@ -1,6 +1,7 @@
 {
 	"name": "Pipeline2 test",
 	"properties": {
+		"description": "Pipeline2 test",
 		"annotations": []
 	}
 }
